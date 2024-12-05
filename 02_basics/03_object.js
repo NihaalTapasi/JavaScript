@@ -1,3 +1,5 @@
+//Obje Literals !!!
+
 const mySym = Symbol("24eje1076")
 const JSUser = {
     name : "Nihaal",
@@ -24,7 +26,7 @@ JSUser.greeting= function(){
 console.log(JSUser.greeting());
 
 JSUser.greetingTwo = function(){
-    console.log(`Hi ${this["Full Name"]}, Your age is ${this["age"]}`);
+    console.log(`Hi ${this["Full Name"]}, Your age is ${this["age"]}`);//this is use to signify JS User OBJ
 }
 console.log(JSUser.greetingTwo());
 
