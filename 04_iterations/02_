@@ -1,0 +1,21 @@
+let mynum=[1,2,3,4,5,6]
+
+
+// mynum=mynum.map((num)=>(num+10))//allowed 
+
+mynum = mynum.map((num)=>(num*10)).map((num)=>(num+1)).filter((num)=>num>=40);
+//           what ever is the 1st map gets returned then the 2nd map gets executed.
+ 
+console.log(mynum);
+ 
+console.log("---------------------------------------");
+mynum=[1,2,3]  
+const mytotal = mynum.reduce((acc, currval)=>{
+    console.log(`acc: ${acc} and current value : ${currval}`);
+    
+    return acc + currval//acc- accumilator , curval is current value 
+    //NOTE: the value returned goes to the acc until the last value is term;
+},0);
+
+console.log(mytotal);
+

@@ -1,3 +1,5 @@
-    // if(username===undefined){
-    //     return "Enter a proper UserName"
-    // }
+
+// function chai(){
+//     let username = "Nihaal"
+//     console.log(this.username);//it is undefined !!
+// }
